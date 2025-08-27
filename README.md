@@ -28,8 +28,9 @@ middle, and last, with middle being everything in between the first and last ele
 variables.
 
 # What you will see
-When you run the code, the user must input the satified condition for the code to run, afterwards, the outputs will show up right under the code cell.   
-Some cells will print results like converted emoticons, rearranged strings, or processed lists.  
+When you run the code, the user must input the satified condition for the code to run, afterwards, 
+the outputs will show up right under the code cell. Some cells will print results like converted emoticons, 
+rearranged strings, or processed lists.  
 
 # Why this Matters
 The goal of this project is to learn the basics of Python programming in a hands-on way.  
