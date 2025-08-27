@@ -28,7 +28,7 @@ middle, and last, with middle being everything in between the first and last ele
 variables.
 
 # What you will see
-When you run the code, the answers or results will show up right under the code cell.  
+When you run the code, the user must input the satified condition for the code to run, afterwards, the outputs will show up right under the code cell.   
 Some cells will print results like converted emoticons, rearranged strings, or processed lists.  
 
 # Why this Matters
