@@ -13,12 +13,19 @@ It contains simple problems that helped me practice basic coding skills.
 - Working with strings and lists  
 - Using functions and loops  
 
-Some of the problems I solved here are:  
+The problems I solved here are:  
 - ALPHABET SOUP PROBLEM:  
+Create a function that takes a string and returns a string with its letters
+in alphabetical order.
 
 - EMOTICON PROBLEM:  
+Create a function that changes specific words into emoticons. Given a sentence
+as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:
 
-- UNPACKING LIST PROBLEM
+- UNPACKING LIST PROBLEM:
+Unpack the list write your code here into three variables, being first,
+middle, and last, with middle being everything in between the first and last element. Then print all three
+variables.
 
 # What you will see
 When you run the code, the answers or results will show up right under the code cell.  
@@ -27,3 +34,5 @@ Some cells will print results like converted emoticons, rearranged strings, or p
 # Why this Matters
 The goal of this project is to learn the basics of Python programming in a hands-on way.  
 It shows that I can write, run, and explain simple Python programs step by step. 
+
+For further explanation about the codes refer to the main file.
