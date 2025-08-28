@@ -11,18 +11,19 @@ Arrange the letters of a given word in alphabetical order.
 
 Code Used:
 
+'''python 
 def alphabet_soup(word):
-    return ''.join(sorted(word))   # sorts letters alphabetically
+    return) ''.join(sorted(word))   # sorts letters alphabetically
 
 user_input = input("Enter a word (e.g. 'hacker'): ")
 result = alphabet_soup(user_input)
 print("Alphabetically sorted word:", result)
-
+'''
 How it Works:
 
-sorted(word) → breaks the word into letters and sorts them alphabetically.
+sorted(word) breaks the word into letters and sorts them alphabetically.
 
-''.join(...) → combines them back into a single string.
+''.join(...) combines them back into a single string.
 
 
 Example Run:
@@ -50,11 +51,11 @@ print(output)
 
 How it Works:
 
-emote.split() → breaks the sentence into words.
+emote.split() breaks the sentence into words.
 
-emoticons.get(e, e) → replaces the word if it matches one in the dictionary; otherwise keeps it the same.
+emoticons.get(e, e) replaces the word if it matches one in the dictionary; otherwise keeps it the same.
 
-' '.join(...) → puts the words (or emojis) back into a sentence.
+' '.join(...) puts the words (or emojis) back into a sentence.
 
 
 Example Run:
@@ -82,11 +83,11 @@ else:
 
 How it Works:
 
-input().split() → turns typed numbers into a list of strings.
+input().split() turns typed numbers into a list of strings.
 
-[int(x) for x in ...] → converts them into integers.
+[int(x) for x in ...] converts them into integers.
 
-first, *middle, last = lst → separates the first number, the middle part, and the last number.
+first, *middle, last = lst separates the first number, the middle part, and the last number.
 
 
 Example Run:
