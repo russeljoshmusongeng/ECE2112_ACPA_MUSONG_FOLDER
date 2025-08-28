@@ -4,22 +4,23 @@ Advanced Computer Programming and Algorithm_MUSONG
 This project contains three beginner Python programs that help practice working with strings, lists, and dictionaries.
 
 
-1. Alphabet Soup Problem
+# 1. Alphabet Soup Problem
 
 Purpose:
 Arrange the letters of a given word in alphabetical order.
 
 Code Used:
 
-'''python 
+```
 def alphabet_soup(word):
-    return) ''.join(sorted(word))   # sorts letters alphabetically
+    return ''.join(sorted(word))   # sorts letters alphabetically
 
 user_input = input("Enter a word (e.g. 'hacker'): ")
 result = alphabet_soup(user_input)
 print("Alphabetically sorted word:", result)
-'''
-How it Works:
+```
+
+# How it Works:
 
 sorted(word) breaks the word into letters and sorts them alphabetically.
 
@@ -32,13 +33,13 @@ Enter a word (e.g. 'hacker'): hacker
 Alphabetically sorted word: acehkr
 
 
-2. Emoticon Problem
+# 2. Emoticon Problem
 
 Purpose:
 Replace certain words in a sentence with emojis/emoticons.
 
 Code Used:
-
+```
 def sentence(emote):
     emoticons = {"smile": ":)", "grin": ":D", "sad": ":(", "mad": ">:("}
     Emote_list = emote.split()   # breaks sentence into words
@@ -48,8 +49,9 @@ def sentence(emote):
 user_input = input("Enter a sentence (e.g. 'Make me smile'): ")
 output = sentence(user_input)
 print(output)
+```
 
-How it Works:
+# How it Works:
 
 emote.split() breaks the sentence into words.
 
@@ -65,13 +67,13 @@ Make me :)
 
 
 
-3. Unpacking List Problem
+# 3. Unpacking List Problem
 
 Purpose:
 Split a list of numbers into first, middle, and last values.
 
 Code Used:
-
+```
 user_input = input("Enter a list of numbers separated by spaces (e.g. '1 2 3 4 5 6'): ")
 lst = [int(x) for x in user_input.split()]   # convert input into numbers
 
@@ -80,8 +82,9 @@ if len(lst) >= 3:
     print("first:", first, "middle:", middle, "last:", last)
 else:
     print("Please enter at least 3 numbers.")
+```
 
-How it Works:
+# How it Works:
 
 input().split() turns typed numbers into a list of strings.
 
