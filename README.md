@@ -22,9 +22,21 @@ print("Alphabetically sorted word:", result)
 
 # How it Works:
 
-sorted(word) breaks the word into letters and sorts them alphabetically.
+```` sorted(word)````
 
-''.join(...) combines them back into a single string.
+Takes the word and splits it into individual letters.
+
+Then it rearranges those letters in alphabetical order.
+Example:
+"hello" → ['e', 'h', 'l', 'l', 'o'].
+
+```` ''.join(...)````
+
+The join function glues a list of characters back together into one word.
+
+The '' means “don’t put anything between the letters.”
+Example:
+['e', 'h', 'l', 'l', 'o'] → "ehllo".
 
 
 Example Run:
@@ -53,11 +65,23 @@ print(output)
 
 # How it Works:
 
-emote.split() breaks the sentence into words.
+```` emote.split() ````
 
-emoticons.get(e, e) replaces the word if it matches one in the dictionary; otherwise keeps it the same.
+Cuts a sentence into pieces (words) wherever there are spaces.
+Example: "smile sad" → ["smile", "sad"].
 
-' '.join(...) puts the words (or emojis) back into a sentence.
+```` emoticons.get(e, e) ````
+
+Looks at each word.
+
+If the word is in the emoticons dictionary (like "smile": ":)"), it replaces it with the matching emoji.
+
+If the word isn’t in the dictionary, it just keeps the word as it is.
+
+```` ' '.join(...)````
+
+Glues all the words (or emojis) back together into a single sentence, with spaces in between.
+Example: [":)", ":("] → ":) :(".
 
 
 Example Run:
@@ -86,11 +110,27 @@ else:
 
 # How it Works:
 
-input().split() turns typed numbers into a list of strings.
+```` input().split() ````
 
-[int(x) for x in ...] converts them into integers.
+split() cuts it into a list of text pieces (strings):
+["10", "20", "30", "40", "50"].
 
-first, *middle, last = lst separates the first number, the middle part, and the last number.
+```` [int(x) for x in ...] ````
+
+This turns each text number into a real integer.
+
+So now it becomes:
+[10, 20, 30, 40, 50].
+
+```` first, *middle, last = lst ````
+
+This is called unpacking.
+
+first gets the very first number → 10.
+
+last gets the very last number → 50.
+
+*middle takes everything in between → [20, 30, 40].
 
 
 Example Run:
